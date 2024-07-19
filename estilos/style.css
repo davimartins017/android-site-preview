@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid.otf';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BebasNeue-Regular.otf';
+    src: url('../fontes/BebasNeue-Regular.otf  format')('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'BebasNeue-Regular.otf';
+    background-color: #89CDA5;
+}
+
+header{
+    background: linear-gradient(to top, #124126, #54c784);
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+header h1{
+    font-family: 'idroid.otf';
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+header h3{
+    font-family: 'BebasNeue-Regular.otf';
+    padding-top: 10px;
+}
+
+nav{
+    background-color: #124126;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-left: 15px;
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.308);
+    transition: 0.1s;
+    padding: 2px;
+    
+}
+
+.box-container{
+    box-shadow: 1px 1px 10px black;
+    margin: auto; /*Centraliza o box*/
+    background-color: white;
+    max-width: 800px;
+    padding: 30px 
+}
+
+.container-img{
+    width: 100%;
+}
+
+.container-video{
+    background-color: #124126;
+    padding: 20px;
+    
+}
+
+#img-central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container h1 {
+    font-family: 'idroid.otf';
+    font-size: 30px;
+    color: #124126;
+}
+
+p{
+    font-family: 'BebasNeue-Regular.otf';
+    padding: 20px 0px;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+h2{
+    font-family: 'idroid.otf';
+    background: linear-gradient(to right, #2a91569a, #89cda500);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #124126;
+}
+
+.container-box-extra{
+    padding-top: 30px;
+}
+
+.container-box-extra h4{
+    font-family: 'BebasNeue-Regular.otf';
+    background-color: #2FA866;
+    color: white;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section{
+    background-color: #C5EBD6;
+    padding: 0px 20px;
+}
+
+section ul{
+    
+    list-style-type: "✔ ";
+    columns: 2;
+    padding: 30px;
+    text-decoration: underline dotted;
+}
+
+section li{
+    padding-left: 15px;
+}
+
+.linkinterno{
+    text-decoration: none;
+    color: #164d2ee3;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 1px 1px 3px #164d2e96;
+}
+
+.linkexterno{
+    text-decoration: none;
+    color: #164d2ee3;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 1px 1px 3px #164d2e96;
+}
+
+.linkexterno:hover{
+    background-color: #164d2ee3;
+    color: white;
+    padding-left: 5px;
+    transform: 0.3s;
+}
+
+footer p{
+    background-color: #124126;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
